@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Selfie App</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Data Selfie</h1>
+    <div>
+        <a href="/">Main</a> | <a href="/logs">Data</a>
+    </div>
+    <p>
+        Latitude: <span id="lat"></span>&deg;<br>
+        Longitude: <span id="lon"></span>&deg;<br>
+    </p>
+
+    <div class="textbox">
+        <label for="UserId">User Name: </label>
+        <input id="UserId"/>
+    </div> <br>
+    
+    <div class="geodiv">
+        <button id="geoloc">Submit</button>
+    </div><br><br>
+    
+
+    <script src="sketch.js" class="vid">
+        
+    </script>
+    
+    <style>
+        h1,p,.geodiv,.textbox {
+             text-align: center;
+         }
+     </style>
+    
+</body>
+</html>
