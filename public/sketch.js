@@ -1,4 +1,4 @@
-function setup() {
+function setup() { //This fn runs first when the app gets loaded.
     noCanvas();
     const video = createCapture(VIDEO);
     video.size(320,240)
